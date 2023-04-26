@@ -27,7 +27,7 @@ Fluxos:
 * Conectar na VPN da Terra Investimentos.
 
 ## 📖 Documentation:
-- [codeceptJS](https://codecept.io/mobile/#setting-up)
+- [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Execução dos testes:
 `exemplo`
 
