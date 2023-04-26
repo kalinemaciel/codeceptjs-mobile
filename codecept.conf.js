@@ -12,9 +12,16 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      app: 'http://localhost',
       platform: 'Android',
-      device: 'emulator'
+      app: 'caminho da apk',
+      desiredCapabilities: {
+        appPackage: '',
+        appActivity: '',
+        deviceName: 'qa_test',
+        platformVersion: '12',
+        device: 'emulator-5554'
+      }
+    
     }
   },
   include: {
