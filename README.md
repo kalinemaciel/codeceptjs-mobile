@@ -23,14 +23,17 @@ Fluxos:
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
 ## 🖥️ Requisitos:
-* Instalar 
+* Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
 * Conectar na VPN da Terra Investimentos.
 
 ## 📖 Documentation:
-- [nome](link)
+- [codeceptJS](https://codecept.io/mobile/#setting-up)
 ## Execução dos testes:
 `exemplo`
 
 ## OBS: Ferramentas extras para automação de AJUDA:
 * Estar com WhatsApp instalado e cadastrado.
 * Estar conectado a um gmail no emulador.
+
+
+
