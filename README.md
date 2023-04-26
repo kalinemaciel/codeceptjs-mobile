@@ -1,11 +1,11 @@
 <h1 align="center">codeceptJS</h1>
 <h2 align="center">Estudos de Automação de Testes</h2>
 
-## 🔨Projeto em desenvolvimento.
+## 🔨 Projeto em desenvolvimento.
 Fluxos:
-- [x] Login
-- [x] Redefinição de senha
-- [x] Cadastro
+- [ ] Login
+- [ ] Redefinição de senha
+- [ ] Cadastro
 - [ ] Redefinição de assinatura eletrônica
 - [ ] Home
 - [ ] Perfil
@@ -13,7 +13,7 @@ Fluxos:
 - [ ] Extrato
 - [ ] Transferência
 
-## ⚙️Tecnologias utilizadas:
+## ⚙️ Tecnologias utilizadas:
 - [Node.js](https://nodejs.org/en/)
 - [Java](https://www.oracle.com/br/java/technologies/downloads/)
 - [Appium](http://appium.io/downloads.html)
@@ -22,11 +22,11 @@ Fluxos:
 - [X Code](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-## 🖥️Requisitos:
+## 🖥️ Requisitos:
 * Instalar 
 * Conectar na VPN da Terra Investimentos.
 
-## 📖Documentation:
+## 📖 Documentation:
 - [nome](link)
 ## Execução dos testes:
 `exemplo`
