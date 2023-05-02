@@ -20,7 +20,7 @@ Fluxos:
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Execução dos testes:
-`exemplo`
+`npx codeceptjs run --steps`
 
 
 
