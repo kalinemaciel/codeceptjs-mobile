@@ -8,24 +8,22 @@ setCommonPlugins();
 
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
+  name: 'codeceptjs - automation',
   tests: './*_test.js',
   output: './output',
   helpers: {
     Appium: {
       platform: 'Android',
-      app: 'caminho da apk',
+      app: '/Users/kalinemaciel/Documents/codeceptjs/app/app-release.apk',
       desiredCapabilities: {
-        appPackage: '',
-        appActivity: '',
+        appPackage: 'com.qazandoapp',
+        appActivity: 'MainActivity',
         deviceName: 'qa_test',
         platformVersion: '12',
-        device: 'emulator-5554'
       }
-    
     }
   },
   include: {
     I: './steps_file.js'
-  },
-  name: 'codeceptjs'
+  }
 }
