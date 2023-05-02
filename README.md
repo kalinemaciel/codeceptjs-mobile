@@ -1,17 +1,9 @@
-<h1 align="center">codeceptJS</h1>
+<h1 align="center">codeceptJS - Qazando</h1>
 <h2 align="center">Estudos de Automação de Testes</h2>
 
 ## 🔨 Projeto em desenvolvimento.
 Fluxos:
 - [ ] Login
-- [ ] Redefinição de senha
-- [ ] Cadastro
-- [ ] Redefinição de assinatura eletrônica
-- [ ] Home
-- [ ] Perfil
-- [ ] Ajuda
-- [ ] Extrato
-- [ ] Transferência
 
 ## ⚙️ Tecnologias utilizadas:
 - [Node.js](https://nodejs.org/en/)
@@ -24,16 +16,11 @@ Fluxos:
 
 ## 🖥️ Requisitos:
 * Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
-* Conectar na VPN da Terra Investimentos.
 
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Execução dos testes:
 `exemplo`
-
-## OBS: Ferramentas extras para automação de AJUDA:
-* Estar com WhatsApp instalado e cadastrado.
-* Estar conectado a um gmail no emulador.
 
 
 
