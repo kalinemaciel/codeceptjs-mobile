@@ -18,7 +18,7 @@ Fluxos:
 * Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
 
 ## 📖 Documentation:
-- [codeceptJS](https://codecept.io/mobile/#setting-up)
+- [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Execução dos testes:
 `exemplo`
 
