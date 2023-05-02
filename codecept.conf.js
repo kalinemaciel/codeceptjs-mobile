@@ -1,4 +1,7 @@
-const { setHeadlessWhen, setCommonPlugins } = require('@codeceptjs/configure');
+const {
+  setHeadlessWhen,
+  setCommonPlugins
+} = require('@codeceptjs/configure');
 // turn on headless mode when running with HEADLESS=true environment variable
 // export HEADLESS=true && npx codeceptjs run
 setHeadlessWhen(process.env.HEADLESS);
@@ -9,21 +12,23 @@ setCommonPlugins();
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
   name: 'codeceptjs - automation',
-  tests: './*_test.js',
+  tests: './steps/*_test.js',
   output: './output',
   helpers: {
     Appium: {
-      platform: 'Android',
-      app: '/Users/kalinemaciel/Documents/codeceptjs/app/app-release.apk',
+      platform: process.env.PLATFORM,
+      app: process.env.APP,
       desiredCapabilities: {
-        appPackage: 'com.qazandoapp',
-        appActivity: 'MainActivity',
-        deviceName: 'qa_test',
-        platformVersion: '12',
+        deviceName: process.env.DEVICE,
+        platformVersion: process.env.VERSION,
+        appPackage: process.env.PLATFORM == "Android" ? process.env.PACKAGE : "",
+        appActivity: process.env.PLATFORM == "Android" ? process.env.ACTIVITY : "",
       }
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    login_page: "./pages/login_page.js",
+    home_page: "./pages/home_page.js"
   }
 }

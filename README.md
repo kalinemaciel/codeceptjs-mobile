@@ -19,8 +19,9 @@ Fluxos:
 
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
-## Execução dos testes:
-`npx codeceptjs run --steps`
-
-
-
+## Comandos importantes:
+`npx codeceptjs run --steps` - roda os testes (utilizar para verificar a funcionalidade do comando)
+`npm run ios` - roda os testes em ios
+`npm run android` - roda os testes em android
+`npx codeceptjs gt` - criação de um novo arquivo de testes
+`npx codeceptjs gpo` - criação de novo arquivo de page objects
