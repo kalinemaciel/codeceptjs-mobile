@@ -20,7 +20,6 @@ Fluxos:
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Comandos importantes:
-`npx codeceptjs run --steps` - roda os testes (utilizar para verificar a funcionalidade do comando)
 
 `npm run ios` - roda os testes em ios
 
