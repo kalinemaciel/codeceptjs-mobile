@@ -1,3 +1,5 @@
+const server = require ('./server/server.js')
+
 const {
   setHeadlessWhen,
   setCommonPlugins
@@ -11,8 +13,6 @@ setCommonPlugins();
 
 /** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  name: 'codeceptjs - automation',
-  tests: './steps/*_test.js',
   output: './output',
   helpers: {
     Appium: {
@@ -30,5 +30,23 @@ exports.config = {
     I: './steps_file.js',
     login_page: "./pages/login_page.js",
     home_page: "./pages/home_page.js"
-  }
+  }, 
+  mocha: {},  
+  bootstrap: async () => {
+    await server.start();
+  },  
+  teardown: async () => {
+    await server.stop(); 
+  }, 
+  hooks: [],
+  plugins: {    
+    screenshotOnFail: {      
+      enabled: true    
+    },    
+    retryFailedStep: {      
+      enabled: true    
+    }  
+  },
+  name: 'codeceptjs - automation',
+  tests: './steps/*_test.js',
 }
