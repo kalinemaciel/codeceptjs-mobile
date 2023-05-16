@@ -16,13 +16,13 @@ exports.config = {
   output: './output',
   helpers: {
     Appium: {
-      platform: process.env.PLATFORM,
-      app: process.env.APP,
+      platform: 'Android',
+      app: '/Users/kalinemaciel/Documents/codeceptjs/app/app-release.apk',
       desiredCapabilities: {
-        deviceName: process.env.DEVICE,
-        platformVersion: process.env.VERSION,
-        appPackage: process.env.PLATFORM == "Android" ? process.env.PACKAGE : "",
-        appActivity: process.env.PLATFORM == "Android" ? process.env.ACTIVITY : "",
+        deviceName: 'qa_test',
+        platformVersion: '12.0',
+        appPackage: 'com.qazandoapp',
+        appActivity: 'MainActivity',
       }
     }
   },

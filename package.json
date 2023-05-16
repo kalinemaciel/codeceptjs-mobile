@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ios": "PLATFORM=iOS APP='/Users/kalinemaciel/Documents/codeceptjs/app/qazandoapp.app' DEVICE='iPhone 13' VERSION=16.4 npx codeceptjs run --steps",
-    "android": "PLATFORM=Android APP='/Users/kalinemaciel/Documents/codeceptjs/app/app-release.apk' DEVICE=qa_test VERSION=12 PACKAGE=com.qazandoapp ACTIVITY=MainActivity npx codeceptjs run --steps"
+    "android": "npx codeceptjs run --steps"
   },
   "repository": {
     "type": "git",
