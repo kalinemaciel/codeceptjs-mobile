@@ -16,16 +16,17 @@ Fluxos:
 
 ## 🖥️ Requisitos:
 * Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
-
+##  Dependências:
+* Mochawesome `npm i mochawesome` e `npm i mocha -D`
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
 ## Comandos importantes:
-
-`npm run ios` - roda os testes em ios
 
 `npm run android` - roda os testes em android
 
 `npx codeceptjs gt` - criação de um novo arquivo de testes
 
 `npx codeceptjs gpo` - criação de novo arquivo de page objects
+
+
 
