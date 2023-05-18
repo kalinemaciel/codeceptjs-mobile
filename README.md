@@ -1,10 +1,11 @@
 <h1 align="center">codeceptJS - Qazando</h1>
 <h2 align="center">Estudos de Automação de Testes</h2>
 
-## 🔨 Projeto em desenvolvimento.
+## 🔨 Projeto desenvolvido.
 Fluxos:
 - [x] Login
 - [x] Add students
+
 ## ⚙️ Tecnologias utilizadas:
 - [Node.js](https://nodejs.org/en/)
 - [Java](https://www.oracle.com/br/java/technologies/downloads/)
