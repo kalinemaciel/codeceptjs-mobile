@@ -3,8 +3,8 @@
 
 ## 🔨 Projeto em desenvolvimento.
 Fluxos:
-- [ ] Login
-
+- [x] Login
+- [x] Add students
 ## ⚙️ Tecnologias utilizadas:
 - [Node.js](https://nodejs.org/en/)
 - [Java](https://www.oracle.com/br/java/technologies/downloads/)
@@ -14,18 +14,20 @@ Fluxos:
 - [X Code](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-## 🖥️ Requisitos:
-* Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
+## 🖥️ Dependências:
+* CodeceptJS `npm install codeceptjs webdriverio --save`
+* Mochawesome / Mocha `npm i mochawesome` e `npm i mocha -D`
 
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
-## Comandos importantes:
 
-`npm run ios` - roda os testes em ios
+## Comandos importantes:
 
 `npm run android` - roda os testes em android
 
 `npx codeceptjs gt` - criação de um novo arquivo de testes
 
 `npx codeceptjs gpo` - criação de novo arquivo de page objects
+
+
 
