@@ -1,13 +1,15 @@
 Feature('Students');
 
 const { I, login_page, home_page } = inject()
+const code = require('../utils/code')
+const name = require('../utils/name')
 
 Scenario('Add student with success',  ({ I }) => {
 
-    const code = '6661'
-    const name = 'Kaline Maciel'
+    const myCode = code.getCode()
+    const myName = name.getName()
 
     login_page.doLogin('teste@teste.com', '123456')
-    home_page.registerStudent(code, name)
-    home_page.searchStudent(name, code)
+    home_page.registerStudent(myCode, myName)
+    home_page.searchStudent(myName, myCode)
 });

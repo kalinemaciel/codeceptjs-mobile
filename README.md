@@ -14,12 +14,13 @@ Fluxos:
 - [X Code](https://apps.apple.com/br/app/xcode/id497799835?mt=12)
 - [Visual Studio Code](https://code.visualstudio.com/download)
 
-## 🖥️ Requisitos:
-* Instalar codeceptJS através do comando `npm install codeceptjs webdriverio --save`
-##  Dependências:
-* Mochawesome `npm i mochawesome` e `npm i mocha -D`
+## 🖥️ Dependências:
+* CodeceptJS `npm install codeceptjs webdriverio --save`
+* Mochawesome / Mocha `npm i mochawesome` e `npm i mocha -D`
+
 ## 📖 Documentation:
 - [CodeceptJS](https://codecept.io/mobile/#setting-up)
+
 ## Comandos importantes:
 
 `npm run android` - roda os testes em android
