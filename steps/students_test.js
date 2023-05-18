@@ -1,10 +1,10 @@
-Feature('Students');
+Feature('STUDENTS');
 
 const { I, login_page, home_page } = inject()
 const code = require('../utils/code')
 const name = require('../utils/name')
 
-Scenario('Add student with success',  ({ I }) => {
+Scenario('add student with success',  ({ I }) => {
 
     const myCode = code.getCode()
     const myName = name.getName()

@@ -3,8 +3,8 @@
 
 ## 🔨 Projeto em desenvolvimento.
 Fluxos:
-- [ ] Login
-
+- [x] Login
+- [x] Add students
 ## ⚙️ Tecnologias utilizadas:
 - [Node.js](https://nodejs.org/en/)
 - [Java](https://www.oracle.com/br/java/technologies/downloads/)

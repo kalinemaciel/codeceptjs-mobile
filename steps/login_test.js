@@ -1,6 +1,6 @@
-Feature('login');
+Feature('LOGIN');
 
-const { I, login_page } = inject()
+const { I, login_page, scroll_page } = inject()
 
 BeforeSuite(() => {
     console.log('Suite')
@@ -18,33 +18,18 @@ After(() => {
     console.log('Scenario')
 })
 
-Scenario('Login with success',  ({home_page}) => {
-
+Scenario('login with correct credentials',  ({home_page}) => {
     login_page.doLogin('teste@teste.com', '123456')
     home_page.loginSuccess()
-
-    I.touchPerform([
-        {
-        action: 'longPress',
-        options: {
-            x: 300,
-            y: 1100
-        }
-    },
-    {
-        action: 'moveTo',
-        options: {
-            x: 300,
-            y: 250
-        }
-    },
-    {action: 'release'}
-])
-
+    scroll_page.doScroll()
 });
 
-Scenario('Login with error',  () => {
+Scenario('login with wrong password',  () => {
+    login_page.doLogin('teste@teste.com', '1234')
+    login_page.loginError()
+});
 
+Scenario('login with wrong email',  () => {
     login_page.doLogin('erro@teste.com', '123456')
     login_page.loginError()
 });

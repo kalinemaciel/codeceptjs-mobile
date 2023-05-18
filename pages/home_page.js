@@ -13,6 +13,10 @@ module.exports = {
     search: '~search'
   },
 
+  warnings:{
+    save: 'Dados salvos!'
+  },
+
   loginSuccess() {
     I.waitForElement(this.button.save, 5)
     I.seeElement(this.button.save)
@@ -22,6 +26,7 @@ module.exports = {
     I.fillField(this.fields.code, code)
     I.fillField(this.fields.name, name)
     I.tap(this.button.save)
+    I.seeElement(this.warnings.save)
   },
 
   searchStudent(search, check){
