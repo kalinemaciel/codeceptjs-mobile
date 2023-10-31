@@ -1,5 +1,5 @@
 {
-  "name": "codeceptjs",
+  "name": "codeceptjs-mobile",
   "version": "1.0.0",
   "description": "<h1 align=\"center\">codeceptJS</h1> <h2 align=\"center\">Estudos de Automação de Testes</h2>",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kalinemaciel/codeceptjs.git"
+    "url": "git+https://github.com/kalinemaciel/codeceptjs-mobile.git"
   },
   "author": "Kaline Maciel",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kalinemaciel/codeceptjs/issues"
+    "url": "https://github.com/kalinemaciel/codeceptjs-mobile/issues"
   },
-  "homepage": "https://github.com/kalinemaciel/codeceptjs#readme",
+  "homepage": "https://github.com/kalinemaciel/codeceptjs-mobile#readme",
   "dependencies": {
     "codeceptjs": "^3.4.1",
     "mochawesome": "^7.1.3",
