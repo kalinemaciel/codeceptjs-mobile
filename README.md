@@ -1,5 +1,5 @@
 <h1 align="center">codeceptJS - Qazando</h1>
-<h2 align="center">Estudos de Automação de Testes</h2>
+<h2 align="center">Estudos de Automação de Testes Mobile</h2>
 
 ## 🔨 Projeto desenvolvido.
 Fluxos:
